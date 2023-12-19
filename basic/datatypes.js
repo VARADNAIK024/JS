@@ -38,3 +38,4 @@ console.log(Myfunctions())
 const Realid = Symbol("123");
 const fakeid = Symbol("123");
 console.log(Realid === fakeid);
+
