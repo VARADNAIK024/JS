@@ -80,3 +80,30 @@ return ` ${username1} u can enter club`;
 }
 //console.log(loginusername1(2));
 
+
+
+// CREATED CARTS TO ADD ITEM IN LIST 
+
+function cardvalue(...cardval)  //... is used in Spread and Rest operator depands upon its use
+{
+return cardval
+}
+console.log(cardvalue(200,300,500));
+
+
+
+//HOW TO USE OBJECT INSIDE FUNC()
+
+const myobject1 = {
+
+    usern1 : "varu",
+    id : 2,
+}
+
+function handleobj(valss)
+{
+console.log(`user name is ${valss.usern1} and its id is ${valss.id}`);
+
+}
+handleobj(myobject1)
+
