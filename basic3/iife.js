@@ -21,9 +21,17 @@
     console.log("db connected 3");
 })();
 
-// same arrow fun but using parameters
+
+//NAMED IIFE
+(function one()
+{
+    console.log("named iife");
+})();
+
+
+// same arrow fun but using parameters / UNNAMED IIFE
 ((name) => {
-    console.log(`My name IS ${name}`);
+    console.log(`M name IS ${name}`);
 
 })("varu");
 
